@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/../../jeesite" includeSubdirectories="false" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="winsoft-admin" />
+        <module name="winsoft-api" />
+        <module name="winsoft-core" />
+        <module name="winsoft-generator" />
+        <module name="winsoft-utils" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="winsoft-admin" target="1.8" />
+      <module name="winsoft-api" target="1.8" />
+      <module name="winsoft-core" target="1.8" />
+      <module name="winsoft-generator" target="1.8" />
+      <module name="winsoft-parent" target="1.8" />
+      <module name="winsoft-utils" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

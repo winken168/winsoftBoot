@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.winsoft.api.biz.dao.SysGridConfigMapper">
+
+	<!-- 通用查询映射结果 -->
+	<resultMap id="BaseResultMap" type="com.winsoft.api.biz.model.SysGridConfig">
+		<result column="Gid" property="Gid" />
+		<result column="TableName" property="TableName" />
+		<result column="ColCnName" property="ColCnName" />
+		<result column="ColEnName" property="ColEnName" />
+		<result column="SqlType" property="SqlType" />
+		<result column="IsAutoIncrement" property="IsAutoIncrement" />
+		<result column="IsCanNull" property="IsCanNull" />
+		<result column="MaxSize" property="MaxSize" />
+		<result column="Scale" property="Scale" />
+		<result column="IsPrimaryKey" property="IsPrimaryKey" />
+		<result column="DefaultValue" property="DefaultValue" />
+		<result column="Description" property="Description" />
+		<result column="IsUniqueKey" property="IsUniqueKey" />
+		<result column="IsForeignKey" property="IsForeignKey" />
+		<result column="FKTableName" property="FKTableName" />
+		<result column="Createdby" property="Createdby" />
+		<result column="CreatedTime" property="CreatedTime" />
+		<result column="Modifiedby" property="Modifiedby" />
+		<result column="ModifiedTime" property="ModifiedTime" />
+	</resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        Gid, TableName, ColCnName, ColEnName, SqlType, IsAutoIncrement, IsCanNull, MaxSize, Scale, IsPrimaryKey, DefaultValue, Description, IsUniqueKey, IsForeignKey, FKTableName, Createdby, CreatedTime, Modifiedby, ModifiedTime
+    </sql>
+
+</mapper>

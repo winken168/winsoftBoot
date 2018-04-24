@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.winsoft.api.biz.dao.SysSQLCommandMapper">
+
+	<!-- 通用查询映射结果 -->
+	<resultMap id="BaseResultMap" type="com.winsoft.api.biz.model.SysSQLCommand">
+		<result column="Gid" property="Gid" />
+		<result column="SqlComandText" property="SqlComandText" />
+		<result column="SqlKey" property="SqlKey" />
+		<result column="Remark" property="Remark" />
+		<result column="Createdby" property="Createdby" />
+		<result column="CreatedTime" property="CreatedTime" />
+		<result column="Modifiedby" property="Modifiedby" />
+		<result column="ModifiedTime" property="ModifiedTime" />
+	</resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        Gid, SqlComandText, SqlKey, Remark, Createdby, CreatedTime, Modifiedby, ModifiedTime
+    </sql>
+
+</mapper>

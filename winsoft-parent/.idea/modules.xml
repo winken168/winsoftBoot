@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../winsoft-admin/winsoft-admin.iml" filepath="$PROJECT_DIR$/../winsoft-admin/winsoft-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../winsoft-api/winsoft-api.iml" filepath="$PROJECT_DIR$/../winsoft-api/winsoft-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../winsoft-core/winsoft-core.iml" filepath="$PROJECT_DIR$/../winsoft-core/winsoft-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../winsoft-generator/winsoft-generator.iml" filepath="$PROJECT_DIR$/../winsoft-generator/winsoft-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/winsoft-parent.iml" filepath="$PROJECT_DIR$/winsoft-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../winsoft-utils/winsoft-utils.iml" filepath="$PROJECT_DIR$/../winsoft-utils/winsoft-utils.iml" />
+    </modules>
+  </component>
+</project>
